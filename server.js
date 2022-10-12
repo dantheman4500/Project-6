@@ -15,6 +15,9 @@ app.set('view engine', 'handlebars');
 
 app.use(require('./Controllers'));
 
+app.use(express.static('public'));
+
+
 // Starts the server to begin listening
 app.listen(PORT, () => {
     console.log('Server listening on: http://localhost:' + PORT);
