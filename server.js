@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-app.use(require('./controllers/Homepage-route'));
+app.use(require('./Controllers'));
 
 // Starts the server to begin listening
 app.listen(PORT, () => {
