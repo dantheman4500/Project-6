@@ -18,5 +18,5 @@ app.use(require('./Controllers'));
 // Starts the server to begin listening
 app.listen(PORT, () => {
     console.log('Server listening on: http://localhost:' + PORT);
-  });
+});
   
