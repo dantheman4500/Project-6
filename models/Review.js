@@ -1,10 +1,11 @@
+// This will be for our users Reviews 
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class videogame extends Model {}
+class Review extends Model {}
 
-// ToDo: Please review the video criteria below 
-videogame.init(
+// TODO Team review: Is this what we want? 
+Reviews.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -16,14 +17,25 @@ videogame.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    date_created: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: DataTypes.NOW,
+    },
+    user_review: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+    },
+
+
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'videogame',
+    modelName: 'Reviews',
   }
 );
 
-module.exports = videogame;
+module.exports = Reviews;
