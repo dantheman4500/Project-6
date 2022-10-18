@@ -54,9 +54,17 @@ form {
     margin: 10px;
 }
 
+#loginEmail:hover, #loginPassword:hover {
+    box-shadow: 0px 0px 10px rgb(90, 214, 208);
+}
+
 #continue:hover {
     box-shadow: 0px 0px 10px rgb(90, 214, 208);
     transform: scale(1.1);
+}
+
+#signupName:hover, #signupEmail:hover, #signupPassword:hover {
+    box-shadow: 0px 0px 10px rgb(97, 95, 255);
 }
 
 #newGame:hover {
