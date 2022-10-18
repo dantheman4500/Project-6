@@ -1,5 +1,3 @@
-$('.hideStart').css('visibility', 'hidden');
-
 const loginFormHandler = async (event) => {
     event.preventDefault();
 

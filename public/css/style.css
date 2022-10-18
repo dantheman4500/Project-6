@@ -29,3 +29,25 @@
     box-shadow: 0px 0px 10px rgb(236, 44, 44);
     transform: scale(1.1);
 }
+
+form {
+    padding: 50px;
+}
+
+.control {
+    margin-top: 5px;
+}
+
+.input {
+    border-radius: 10px;
+}
+
+.buttons {
+    margin: 10px;
+    display: inline;
+}
+
+.button {
+    margin: 10px;
+    font-family: 'Press Start 2P';
+}
