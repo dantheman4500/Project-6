@@ -8,6 +8,7 @@
   {{!-- Icon --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Adding stylesheet links for Bulma framework -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -30,15 +31,16 @@
                 <div class="container is-widescreen column is-vcentered test">
                     <div class="column container is-widescreen">
                         {{!-- <h1 class="welcome">Welcome to VideoGamesWebsite</h1> --}}
-                        <h2 class="pressStart">PRESS START</h2>
+                        <h2 class="pressStart hideStart">PRESS START</h2>
                         {{#if logged_in}}
                         <a href="/views/profile.handlebars">Profile</a>
                         <a>Logout</a>
                         {{{ body }}}
                         {{else}}
-                        <a class="button is-danger start" href="/login">
+                        <a class="button is-danger start hideStart" href="/login">
                             START
                         </a>
+                        {{{ body }}}
                         {{/if}}
                     </div>
                 </div>
@@ -46,7 +48,7 @@
         </main>
     </div>
 
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
