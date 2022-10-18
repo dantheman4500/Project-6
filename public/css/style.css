@@ -1,4 +1,4 @@
-.test {
+.makeCentered {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,6 @@ form {
 
 .buttons {
     margin: 10px;
-    display: inline;
 }
 
 .button {
