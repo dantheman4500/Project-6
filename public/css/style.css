@@ -1,3 +1,18 @@
+html {
+    background-image: url('/images/bg2.png');
+    /* background-image: url('/images/bg3.jpg'); */
+    background-size: cover;
+    min-height: 100%;
+}
+
+.siteName {
+    font-size: 65px;
+    padding-top: 10px;
+    color: rgb(24, 36, 211);
+    text-shadow: 0px 3px 3px rgb(90, 206, 214);
+
+}
+
 .makeCentered {
     display: flex;
     justify-content: center;
@@ -6,18 +21,11 @@
     text-align: center;
 }
 
-.siteName {
-    padding-top: 10px;
-}
-.welcome {
-    font-size: 40px;
-    padding-bottom: 15px;
-}
-
 .pressStart {
     font-size: 25px;
     padding-bottom: 45px;
     font-family: 'Press Start 2P';
+    color: rgb(90, 206, 214);
 }
 
 .start {
@@ -44,6 +52,16 @@ form {
 
 .buttons {
     margin: 10px;
+}
+
+#continue:hover {
+    box-shadow: 0px 0px 10px rgb(90, 214, 208);
+    transform: scale(1.1);
+}
+
+#newGame:hover {
+    box-shadow: 0px 0px 10px rgb(97, 95, 255);
+    transform: scale(1.1);
 }
 
 .button {
