@@ -25,26 +25,8 @@
                 </h1>
             </div>
         </header>
-        
         <main>
-            <div class="hero">
-                <div class="container is-widescreen column is-vcentered test">
-                    <div class="column container is-widescreen">
-                        {{!-- <h1 class="welcome">Welcome to VideoGamesWebsite</h1> --}}
-                        <h2 class="pressStart hideStart">PRESS START</h2>
-                        {{#if logged_in}}
-                        <a href="/views/profile.handlebars">Profile</a>
-                        <a>Logout</a>
-                        {{{ body }}}
-                        {{else}}
-                        <a class="button is-danger start hideStart" href="/login">
-                            START
-                        </a>
-                        {{{ body }}}
-                        {{/if}}
-                    </div>
-                </div>
-            </div>
+            {{{ body }}}
         </main>
     </div>
 

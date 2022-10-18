@@ -44,10 +44,13 @@ form {
 
 .buttons {
     margin: 10px;
-    display: inline;
 }
 
 .button {
     margin: 10px;
     font-family: 'Press Start 2P';
+}
+
+.bungalow {
+    display: inline;
 }
