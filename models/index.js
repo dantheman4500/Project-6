@@ -6,12 +6,12 @@ User.hasMany(Videogame, {
     onDelete: 'CASCADE'
 });
 
-Videogame.belongsToMany(User, {
-    foreignKey: 'user_id'
-});
+// Videogame.belongsToMany(User, {
+//     foreignKey: 'user_id'
+// });
 
-User.hasMany(Review, {
-    foreignKey: 'user_id',
-    onDelete: 'CASCADE'
-});
-module.exports = { User, Videogame, Review }
+// User.hasMany(Review, {
+//     foreignKey: 'user_id',
+//     onDelete: 'CASCADE'
+// });
+module.exports = { User, Videogame }
