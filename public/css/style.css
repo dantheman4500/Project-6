@@ -5,6 +5,15 @@ html {
     min-height: 100%;
 }
 
+.pressStart, 
+.start, 
+.button, 
+.menu-label, 
+.content h2, 
+.libraryTitle {
+    font-family: 'Press Start 2P';
+}
+
 .siteName {
     font-size: 65px;
     padding-top: 10px;
@@ -24,13 +33,11 @@ html {
 .pressStart {
     font-size: 25px;
     padding-bottom: 45px;
-    font-family: 'Press Start 2P';
     color: rgb(90, 206, 214);
 }
 
 .start {
     font-size: 20px;
-    font-family: 'Press Start 2P';
 }
 
 .start:hover {
@@ -50,7 +57,7 @@ form {
     border-radius: 10px;
 }
 
-.buttons {
+.buttons, .button {
     margin: 10px;
 }
 
@@ -72,7 +79,22 @@ form {
     transform: scale(1.1);
 }
 
-.button {
-    margin: 10px;
-    font-family: 'Press Start 2P';
+.menu-label {
+    background-color: rgb(24, 36, 211);
+    box-shadow: 2px 2px 4px rgb(90, 206, 214);
+    color: rgb(145, 224, 255);
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content h2, .libraryTitle {
+    color: rgb(145, 224, 255);
+}
+
+.card {
+    background-image: linear-gradient(170deg, rgb(26, 37, 182), rgb(95, 192, 230));
+    box-shadow: 4px 4px 6px 3px rgb(95, 192, 230);
+    color: white;
 }
