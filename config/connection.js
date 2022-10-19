@@ -1,4 +1,4 @@
-// 
+//Import sequelize and require dotenv to protect user data
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
