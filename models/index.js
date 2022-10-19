@@ -1,17 +1,19 @@
 const User = require('./User');
 const Videogame = require('./Videogame');
+const Reviews = require('./Review')
 
-User.hasMany(Videogame, {
-    foreignKey: 'user_id',
+User.belongsToMany(Videogame, {
+    through: 'user_games', 
     onDelete: 'CASCADE'
 });
 
 Videogame.belongsToMany(User, {
-    foreignKey: 'user_id'
+    through: 'user_games'
 });
 
-User.hasMany(Review, {
+User.hasMany(Reviews, {
     foreignKey: 'user_id',
     onDelete: 'CASCADE'
 });
-module.exports = { User, Videogame, Review }
+
+module.exports = { User, Videogame, Reviews}
