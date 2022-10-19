@@ -1,7 +1,8 @@
+//dependies 
 const router = require('express').Router();
+
 const homeRoutes = require('./Homepage-route');
 const apiRoutes = require("./api");
-const userRoutes = require("./api/userRoutes");
 
 
 

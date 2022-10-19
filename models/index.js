@@ -17,3 +17,4 @@ User.hasMany(Reviews, {
 });
 
 module.exports = { User, Videogame, Reviews}
+
