@@ -6,47 +6,31 @@
   <meta name="viewport" conctent="width=device-width, intial-scale=1.0">
   <title>Game Rewiew</title>
   {{!-- Icon --}}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
-    <!-- Adding stylesheet links for Bulma framework -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- Adding stylesheet links for Bulma framework -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <div>
-        <header class="title hero">
-            <div class="container is-widescreen">
-                <h1 class="title is-size-1 siteName">
-                    Game Rewiew
-                </h1>
-            </div>
-        </header>
-        
-        <main>
-            <div class="hero">
-                <div class="container is-widescreen column is-vcentered test">
-                    <div class="column container is-widescreen">
-                        {{!-- <h1 class="welcome">Welcome to VideoGamesWebsite</h1> --}}
-                        <h2 class="pressStart">PRESS START</h2>
-                        {{#if logged_in}}
-                        <a href="/views/profile.handlebars">Profile</a>
-                        <a>Logout</a>
-                        {{{ body }}}
-                        {{else}}
-                        <a class="button is-danger start" href="/login">
-                            START
-                        </a>
-                        {{/if}}
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
+  <div>
+    <header class="title hero">
+      <div class="container is-widescreen">
+        <h1 class="title siteName">
+          Game Rewiew
+        </h1>
+      </div>
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+  </div>
 
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>

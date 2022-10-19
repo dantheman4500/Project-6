@@ -1,8 +1,8 @@
 const loginFormHandler = async (event) => {
     event.preventDefault();
 
-    const email = document.querySelector('#email-login').value.trim();
-    const password = document.querySelector('#password-login').value.trim();
+    const email = document.querySelector('#loginEmail').value.trim();
+    const password = document.querySelector('#loginPassword').value.trim();
 
     if (email && password) {
         const response = await fetch("", {
@@ -22,9 +22,9 @@ const loginFormHandler = async (event) => {
 const signupFormHandler = async (event) => {
     event.preventDefault();
 
-    const name = document.querySelector('#name-signup').value.trim();
-    const email = document.querySelector('#email-signup').value.trim();
-    const password = document.querySelector('#password-signup').value.trim();
+    const name = document.querySelector('#signupName').value.trim();
+    const email = document.querySelector('#signupEmail').value.trim();
+    const password = document.querySelector('#signupPassword').value.trim();
 
     if (name && email && password) {
         const response = await fetch('/Controllers/api/userRoutes.js', {
@@ -42,9 +42,9 @@ const signupFormHandler = async (event) => {
 };
 
 document
-    .querySelector('.login-form')
+    .querySelector('#loginForm')
     .addEventListener('submit', loginFormHandler);
 
 document
-    .querySelector('.signup-form')
+    .querySelector('#signupForm')
     .addEventListener('submit', signupFormHandler);
