@@ -2,7 +2,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Review extends Model {}
+class Reviews extends Model {}
 
 // TODO Team review: Is this what we want? 
 Reviews.init(
