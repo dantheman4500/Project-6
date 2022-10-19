@@ -14,20 +14,17 @@ var igdb = new IGDB ({
 // const url = `https://api.igdb.com/v4/games&appid=${process.env.API_KEY}`
 
 // Import IGDB API with client code 
+// Import client code for IGDB, protect ID and key using .env
 const settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://api.igdb.com/v4/search",
-    "method": "POST",
-    "headers": {
-      "cookie": "__cf_bm=Lea4yu3jx6h5429rgUMcl5SffXKeQcKAl6M2B4VB9us-1666143409-0-AYdS2GU7vja7Zmk7LgwE4jb%2Fc%2BzoICSqNzO4LLM9GyRRytKGf16lr8GqtNctIwbQ80AZj%2BpBlXdGnps3hu7XtQ0%3D",
-      "client-id": "nycm0ddhfr2f14671094t9ofo4ev7m",
-      "authorization": "bearer 66piwqubg89uexg59ooxi1l2nuwklm",
-      "Content-Type": "text/plain"
-    },
-    "data": "fields *; search \"Final Fantasy\"; limit 100;"
-  };
-  
-  $.ajax(settings).done(function (response) {
-    console.log(response);
-  });
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.igdb.com/v4/search",
+  "method": "GET",
+  "headers": {
+    "cookie": "__cf_bm=Lea4yu3jx6h5429rgUMcl5SffXKeQcKAl6M2B4VB9us-1666143409-0-AYdS2GU7vja7Zmk7LgwE4jb%2Fc%2BzoICSqNzO4LLM9GyRRytKGf16lr8GqtNctIwbQ80AZj%2BpBlXdGnps3hu7XtQ0%3D",
+    "client-id": process.env.CLIENT_ID,
+    "authorization": process.env.CLIENT_ID,
+    "Content-Type": "text/plain"
+  },
+  "data": "fields *; search \"Final Fantasy\"; limit 100;"
+};
