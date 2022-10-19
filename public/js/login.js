@@ -4,8 +4,10 @@ const loginFormHandler = async (event) => {
     const email = document.querySelector('#loginEmail').value.trim();
     const password = document.querySelector('#loginPassword').value.trim();
 
+
     if (email && password) {
-        const response = await fetch("", {
+        //Nicole: Testing out /seeds/userData. Result: 404 error, leaving it an empty '' for now
+        const response = await fetch('', {
             method: 'POST',
             body: JSON.stringify({ email, password }),
             headers: { 'Content-Type': 'application/json' },
