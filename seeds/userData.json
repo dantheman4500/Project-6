@@ -1,18 +1,17 @@
 [
     {
-      "name": Steve,
-      "email": steve@gmail.com, 
-      "password": 123456
+        "name": "Steve",
+        "email": "steve@gmail.com", 
+        "password": "123456"
     },
     {
-      "name": ,
-      "email": ,
-      "password": 
+      "name": "Malek",
+      "email": "ucibootcamp@gmail.com",
+      "password": "ucion3"
     },
     {
-      "name": ,
-      "email": ,
-      "password": 
+      "name": "Daniel",
+      "email": "ucibootcamp2@gmail.com",
+      "password": "letsgobootcamp"
     }
   ]
-  
