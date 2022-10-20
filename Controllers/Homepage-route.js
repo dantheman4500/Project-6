@@ -4,28 +4,7 @@ const withAuth = require('../utils/auth');
 
 // This is the home route 
 router.get('/', async (req, res) => {
-  try {
-// Get all Reviews and JOIN with user data
-    const rewiewData = await Reviews.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
-
-    // Serialize data so the template can read it
-    const profile = profileData.map((reviewData) => reviewData.get({ plain: true }));
-
-// Pass serialized data and session flag into template
-    res.render('homepage', {
-      profile,
-      logged_in: req.session.logged_in
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
+  res.render('homepage');
 });
 
 
