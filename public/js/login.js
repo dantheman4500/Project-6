@@ -7,7 +7,7 @@ const loginFormHandler = async (event) => {
 
     if (email && password) {
         //Nicole: Testing out /seeds/userData. Result: 404 error, leaving it an empty '' for now
-        const response = await fetch('api/users/login', {
+        const response = await fetch('/api/users/login', {
             method: 'POST',
             body: JSON.stringify({ email, password }),
             headers: { 'Content-Type': 'application/json' },
