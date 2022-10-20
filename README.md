@@ -1,8 +1,10 @@
 # Game Rewiew - A Review Community For Gamers
 ---
-<!-- ![JS](https://img.shields.io/badge/JavaScript-72%25-yellow)
+![JS](https://img.shields.io/badge/JavaScript-72%25-yellow)
 ![HTML](https://img.shields.io/badge/HTML-25%25-orange)
-![CSS](https://img.shields.io/badge/CSS-3%25-blue) -->
+![CSS](https://img.shields.io/badge/CSS-3%25-blue) 
+
+
 ## Project #2 - Team 6
 
 Team Members:
@@ -20,25 +22,25 @@ Game Rewiew is a node based application that relies on a database to generate in
 
 ## User Story
 
-AS A video game enthusiast looking to share collective experiences
-I WANT a clean, easy-to-use application that can render my favorite titles and allow me to write personal reviews
-SO THAT I can share my experiences with the gaming community at large.  
+- AS A video game enthusiast looking to share collective experiences
+- I WANT a clean, easy-to-use application that can render my favorite titles and allow me to write personal reviews
+- SO THAT I can share my experiences with the gaming community at large.  
 
 ## Acceptance Criteria: 
 
-USE Node.js and Express.js to create a RESTful API
-USE Handlebars.js as the template engine.
-USE MySQL and the Sequelize ORM for the database.
-HAVE both GET and POST routes for retrieving and adding new data.
-USE at least one new library, package, or technology that we haven’t discussed.
-HAVE a folder structure that meets the MVC paradigm.
-INCLUDE authentication (express-session and cookies).
-PROTECT API keys and sensitive information with environment variables.
-BE deployed using [Heroku (with data)](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql).
-HAVE a polished UI.
-BE responsive.
-BE interactive (i.e., accept and respond to user input).
-MEET good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
+- USE Node.js and Express.js to create a RESTful API
+- USE Handlebars.js as the template engine.
+- USE MySQL and the Sequelize ORM for the database.
+- HAVE both GET and POST routes for retrieving and adding new data.
+- USE at least one new library, package, or technology that we haven’t discussed.
+- HAVE a folder structure that meets the MVC paradigm.
+- INCLUDE authentication (express-session and cookies).
+- PROTECT API keys and sensitive information with environment variables.
+- BE deployed using [Heroku (with data)](https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql).
+- HAVE a polished UI.
+- BE responsive.
+- BE interactive (i.e., accept and respond to user input).
+- MEET good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 
 #
 ### The following Technologies:
@@ -54,9 +56,10 @@ MEET good-quality coding standards (file structure, naming conventions, follows 
 
 ## Contributions:
 
-Front End - Emma
-Back End - Malek and Nicole
-Application Debug and Troubeshoot - Daniel
+- Front End - Emma
+- Back End - Malek and Nicole
+- Application Debug and Troubeshoot - Daniel
+
 
 Thank you to our TA's and instructor for their guidance in getting application features to work. 
 
