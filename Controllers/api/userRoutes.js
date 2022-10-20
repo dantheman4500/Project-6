@@ -1,5 +1,7 @@
+// Create constant for dependencies, import User.js to connect to routes
 const router = require('express').Router();
 const { User } = require('../../models');
+
 
 router.post('/', async (req, res) => {
     try {

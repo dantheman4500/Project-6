@@ -7,9 +7,9 @@ const loginFormHandler = async (event) => {
 
     if (email && password) {
         //Nicole: Testing out /seeds/userData. Result: 404 error, leaving it an empty '' for now
-        const response = await fetch('', {
-            method: 'POST',
-            body: JSON.stringify({ email, password }),
+        const response = await fetch('/api/users/login', {
+            method: 'GET',
+            // body: JSON.stringify({ email, password }),
             headers: { 'Content-Type': 'application/json' },
         });
 
@@ -29,7 +29,7 @@ const signupFormHandler = async (event) => {
     const password = document.querySelector('#signupPassword').value.trim();
 
     if (name && email && password) {
-        const response = await fetch('/Controllers/api/userRoutes.js', {
+        const response = await fetch('./seeds', {
             method: 'POST',
             body: JSON.stringify({ name, email, password }),
             headers: { 'Content-Type': 'application/json' },
