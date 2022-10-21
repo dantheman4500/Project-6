@@ -8,17 +8,17 @@
 ## Project #2 - Team 6
 
 Team Members:
-Daniel Romero
-Malek Mekdashi
-Emma Velazquez
-Marian Nicole Borja 
+- Daniel Romero
+- Malek Mekdashi
+- Emma Velazquez
+- Marian Nicole Borja 
 
 ## Introduction: 
-The gaming community has grown so much throughout the past decade! Modern day technology has made it possible for people to create their own smaller games alongside larger popular franchises such as League of Legends, World of Warcraft, and Call of Duty. Thus, the choices as a user are endless! With the expansion of modern technology, gamers worldwide are able to share their love for games with in-depth reviews. Let Game Rewiew help you! Write, share, and read other users reviews on some of your most loved titles.  
+The gaming community has grown exponentially this past decade. Games are released almost daily - ranging from small companies to franchises with histories spanning decades long. Alongside this expansion and the physical disconnect brought by the pandemic, it has become apparent that users/gamers alike need to find ways to continue connecting with one another. Let Game Rewiew help you! Online engagement is essential. Game Rewiew allows users to write, share, and read eachother's reviews on some of your most loved titles. 
 
 ## Project Description
 
-Game Rewiew is a node based application that relies on a database to generate information on user-selected video game titles. User's are then able to keep their favorited games and write their own reviews. Keeping them on one profile page allows the user the ability to organize and keep track of some of their favorite titles.
+Game Rewiew is a node based application that relies on databases to generate information on user-selected video game titles. User's are then able to keep their favorited games and write their own reviews. Keeping them on one profile page allows the user the ability to organize and keep track of their favorite titles.
 
 ## User Story
 
@@ -52,6 +52,16 @@ Game Rewiew is a node based application that relies on a database to generate in
 
 ### Images here:
 
+<img src= "">
+
+<img src= "">
+
+<img src= "">
+
+## Plans For Future Development
+- User to user engagement
+- Opportunity to rate and build off of one another’s reviews
+- Forum functions, community building features
 
 
 ## Contributions:
