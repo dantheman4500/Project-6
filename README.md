@@ -2,7 +2,7 @@
 ---
 ![JS](https://img.shields.io/badge/JavaScript-59%25-yellow)
 ![Handlebars](https://img.shields.io/badge/Handlebars-31%25-orange)
-![CSS](https://img.shields.io/badge/CSS-3%10-blue) 
+![CSS](https://img.shields.io/badge/CSS-10%25-blue) 
 
 
 ## Project #2 - Team 6
@@ -66,8 +66,8 @@ Start Page
 Login Page
 <img src= "https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/LoginImage.png">
 
-Login Page
-<img src= "https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/LoginImage.png">
+Profile Page
+![img](public/images/profilescrnsht.png)
 
 ## Plans For Future Development
 - User to user engagement
