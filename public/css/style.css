@@ -4,6 +4,11 @@ html {
   min-height: 100%;
 }
 
+.error {
+  background-image: url('/images/404.png');
+  background-size: cover;
+}
+
 .pressStart,
 .start,
 .button,
@@ -66,18 +71,18 @@ form {
   box-shadow: 0px 0px 10px rgb(90, 214, 208);
 }
 
-#continue:hover {
+#continue:hover, .addGame:hover {
   box-shadow: 0px 0px 10px rgb(90, 214, 208);
   transform: scale(1.1);
 }
 
 #signupName:hover,
 #signupEmail:hover,
-#signupPassword:hover {
+#signupPassword:hover, {
   box-shadow: 0px 0px 10px rgb(97, 95, 255);
 }
 
-#newGame:hover {
+#newGame:hover, .logoutButton:hover {
   box-shadow: 0px 0px 10px rgb(97, 95, 255);
   transform: scale(1.1);
 }
@@ -110,6 +115,7 @@ form {
   font-family: 'Press Start 2P';
   background-color: black;
   border-radius: 5px;
+  width: 600px;
 }
 
 .display404 {
@@ -124,7 +130,6 @@ form {
 }
 
 #sword:hover {
-  box-shadow: 3px rgb(90, 206, 214);
   transform: scale(1.2);
 }
 
