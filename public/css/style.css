@@ -127,3 +127,7 @@ form {
   box-shadow: 3px rgb(90, 206, 214);
   transform: scale(1.2);
 }
+
+p img {
+  height: 150px;
+}
