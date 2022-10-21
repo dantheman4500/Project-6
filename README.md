@@ -49,6 +49,9 @@ Game Rewiew is a node based application that relies on databases to generate inf
 4. Axios Library
 5. MySql
 
+### Heroku Deployment: 
+https://cryptic-bayou-67210.herokuapp.com/
+
 ### Application Images:
 
 Wireframe 
