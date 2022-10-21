@@ -7,6 +7,11 @@ router.get('/', async (req, res) => {
   res.render('homepage');
 });
 
+// 404 page
+router.get('/404', async (req, res) => {
+  res.render('404');
+});
+
 
 // Use withAuth middleware to prevent access to route
   router.get('/profile', withAuth, async (req, res) => {
