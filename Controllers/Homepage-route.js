@@ -8,7 +8,6 @@ router.get('/', async (req, res) => {
 });
 
 
-
 // Use withAuth middleware to prevent access to route
   router.get('/profile', withAuth, async (req, res) => {
     try {
