@@ -1,8 +1,8 @@
 # Game Rewiew - A Review Community For Gamers
 ---
-![JS](https://img.shields.io/badge/JavaScript-72%25-yellow)
-![HTML](https://img.shields.io/badge/HTML-25%25-orange)
-![CSS](https://img.shields.io/badge/CSS-3%25-blue) 
+![JS](https://img.shields.io/badge/JavaScript-59%25-yellow)
+![Handlebars](https://img.shields.io/badge/Handlebars-31%25-orange)
+![CSS](https://img.shields.io/badge/CSS-3%10-blue) 
 
 
 ## Project #2 - Team 6
@@ -70,7 +70,6 @@ Login Page
 - User to user engagement
 - Opportunity to rate and build off of one another’s reviews
 - Forum functions, community building features
-
 
 ## Contributions:
 
