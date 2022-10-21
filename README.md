@@ -42,7 +42,6 @@ Game Rewiew is a node based application that relies on databases to generate inf
 - BE interactive (i.e., accept and respond to user input).
 - MEET good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
 
-#
 ### The following Technologies:
 1. IGDB API
 2. Sequelize 
@@ -50,15 +49,36 @@ Game Rewiew is a node based application that relies on databases to generate inf
 4. Axios Library
 5. MySql
 
-### Images here:
-![img](public/images/profilescrnsht.png)
+### Application Images:
 
+Wireframe 
+<img src= "https://github.com/dantheman4500/Project-6/blob/7dc6f9fb6771a0d70e066246965373a95c439de0/WireFrame.jpg">
+
+Database Breakdown
+<img src="https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/Databases.png">
+
+Mock-Up Profile
+<img src= "https://github.com/dantheman4500/Project-6/blob/7dc6f9fb6771a0d70e066246965373a95c439de0/Profile%20Mockup.png">
+
+Start Page
+<img src= "https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/Start%20Image.png">
+
+Login Page
+<img src= "https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/LoginImage.png">
+
+Login Page
+<img src= "https://github.com/dantheman4500/Project-6/blob/54150b9864fd9f10cebd4e32bec5f20e4cb44d86/LoginImage.png">
+
+## Plans For Future Development
+- User to user engagement
+- Opportunity to rate and build off of one another’s reviews
+- Forum functions, community building features
 
 ## Contributions:
 
 - Front End - Emma
 - Back End - Malek and Nicole
-- Application Debug and Troubeshoot - Daniel
+- Application Debug and Troubleshoot - Daniel
 
 
 Thank you to our TA's and instructor for their guidance in getting application features to work. 
