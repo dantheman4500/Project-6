@@ -20,7 +20,7 @@ const loginFormHandler = async (event) => {
         }
     }
 };
-//User sign up
+
 const signupFormHandler = async (event) => {
     event.preventDefault();
 
@@ -29,20 +29,19 @@ const signupFormHandler = async (event) => {
     const password = document.querySelector('#signupPassword').value.trim();
 
     if (name && email && password) {
-        const response = await fetch('/api/users', {
+        const response = await fetch('/Controllers/api/userRoutes.js', {
             method: 'POST',
             body: JSON.stringify({ name, email, password }),
             headers: { 'Content-Type': 'application/json' },
         });
         
         if (response.ok) {
-            document.location.replace('/login');
+            document.location.replace('/profile');
         } else {
             alert(response.statusText);
         }
     }
 };
-
 
 document
     .querySelector('#loginForm')
